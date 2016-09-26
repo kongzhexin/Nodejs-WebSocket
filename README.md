@@ -17,10 +17,11 @@
 - 服务器推送  
   服务器不在被动的接受浏览器的request之后才返回数据，而是在有新数据时就主动推送浏览器。
 
-#准备工作
+##准备工作
 ###安装node
-
+直接从官网下载https://nodejs.org/en/
 ###安装socket.io 
 ```javascript
 npm install socket.io
 ```
+
