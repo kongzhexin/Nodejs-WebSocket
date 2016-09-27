@@ -35,3 +35,4 @@ var   io =require('socket.io')(server);
 
 server.listen(8080);
 ```
+ 访问localhost:8080 可以查看到Hello Socket Lover! 说明创建成功！
