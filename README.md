@@ -24,4 +24,14 @@
 ```javascript
 npm install socket.io
 ```
+###用node写一个本地服务器
+```javascript
+var http =require('http');
+var server =http.createServer(function (req,res) {
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.end('<h1>Hello Socket Lover!</h1>');
+});
+var   io =require('socket.io')(server);
 
+server.listen(8080);
+```
